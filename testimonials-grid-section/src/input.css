@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h3 {
+        @apply font-semibold text-lg leading-6 my-5;
+    }
+
+    h4 {
+        @apply text-[13px] font-medium;
+    }
+
+    section {
+        @apply p-8 mt-5 rounded-lg;
+    }
+    img {
+        @apply rounded-full w-[30px] h-[30px];
+    }
+    p,span {
+        font-size: 13px;
+    }
+}
