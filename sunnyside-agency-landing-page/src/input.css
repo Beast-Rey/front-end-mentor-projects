@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    a {
+        @apply hover:text-White font-Barlow;
+    }
+    i {
+        @apply md:text-2xl;
+    }
+    h1, h5, h3 {
+        @apply font-Fraunces;
+    }
+    h3 {
+        @apply uppercase;
+    }
+    p, h2 {
+        @apply font-Barlow;                                                                                 
+    }
+
+    h6 {
+        @apply text-Grayishblue;
+    }
+}
+
+@layer components {
+  .f-jb {
+    @apply flex justify-between;
+ 
+    }
+
+}
+
+.hide {
+    display: none;
+}
+
